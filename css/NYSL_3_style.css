@@ -38,6 +38,18 @@ h1 {
   width: 100%;
   background-color: #A6FF2A;
 }
+.active {
+  background-color: #d9d8d8;
+  border: 2px solid #033949;
+  padding: 10px 8px 10px 8px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  width: 6%;
+}
+
+
 
 /*MAIN STYLE*/
 div.FlexFeedback {
@@ -64,16 +76,12 @@ div.FlexFeedback {
   display: flex;
   justify-content: space-around;
   margin-right: 10px;
-  background-color: #A6FF2A;
   padding: 4.1px 6px;
-  
   border: 2px solid #033949;
   border-radius: 4px;
   height: 186%;
 }
-
 .button {
-  background-color: #A6FF2A;
   border: 2px solid #033949;
   padding: 10px 8px 10px 8px;
   text-align: center;
@@ -81,6 +89,23 @@ div.FlexFeedback {
   margin-bottom: 5px;
   border-radius: 4px;
   width: 6%;
+}
+a.navhover:hover {
+  background-color: #033949;
+  color: #A3FF15;
+}
+.active {
+  background-color: #d9d8d8;
+  border: 2px solid #033949;
+  padding: 10px 8px 10px 8px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  width: 6%;
+}
+.notactive {
+  background-color: #A6FF2A;
 }
 
 /* HR STYLE */
@@ -726,10 +751,10 @@ input[type=submit] {
   display: flex;
   justify-content: center;
   width: 74%;
-  background-color: #A6FF2A;
+  background-color: #033949;
   font-family: "MS PGothic", sans-serif;
-  color: #033949;
-  border: 4px solid #033949;
+  color: #A6FF2A;
+  border: 4px solid #A6FF2A;
   font-weight: bolder;
   text-align: center;
   padding: 14px 20px;
@@ -739,9 +764,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #a800e6;
-  color: #A6FF2A;
-  border: 4px solid #A6FF2A;
+  background-color: #A6FF2A;
+  color: #033949;
+  border: 4px solid #033949;
 }
 /* BACK TO TOP */
 
