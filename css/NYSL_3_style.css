@@ -1,0 +1,801 @@
+html {
+  height: 100%;
+}
+
+/*BODY STYLE*/
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #033949;
+}
+.bodygradient {
+  background-image: linear-gradient(351deg, #A6FF2A 27%, #033949 74%);
+}
+
+
+/*HEADER STYLE*/
+.header {
+  padding: 45px 20px;
+  background-image: linear-gradient(#033949, #A6FF2A);
+  color: #ffffff;
+  text-shadow: 4px 0px #033949;
+}
+h1 {
+  font-family: "MS PGothic", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 4px 0px #033949;
+}
+
+/*NAV BAR*/
+.MenuBar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #A6FF2A;
+}
+
+/*MAIN STYLE*/
+div.FlexFeedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+
+/*MENU LINKS*/
+.MenuBar a {
+  display: inline-block;
+  color: #033949;
+  text-decoration: none;
+  font-family: "MS PGothic", sans-serif;
+  font-weight: bold;
+  height: 15px;
+
+}
+
+/*BUTTON STYLE*/
+.HomeButton {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+  background-color: #A6FF2A;
+  padding: 4.1px 6px;
+  
+  border: 2px solid #033949;
+  border-radius: 4px;
+  height: 186%;
+}
+
+.button {
+  background-color: #A6FF2A;
+  border: 2px solid #033949;
+  padding: 10px 8px 10px 8px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  width: 6%;
+}
+
+/* HR STYLE */
+hr.hr2 {
+  border-style: solid;
+  border-color: #A6FF2A;
+  border-width: 3px;
+}
+hr.hr3 {
+  border-style: solid;
+  border-color: #A6FF2A;
+  border-width: 2px;
+  margin: 0;
+}
+
+/*IMG POSITION*/
+img.logo {
+  position: absolute;
+  top: 137px;
+  left: 665px;
+  height: 200px;
+}
+
+/*<H2> STYLE*/
+h2 {
+  font-family: "MS PGothic", sans-serif;
+}
+div.h2 {
+  color: #A6FF2A;
+  text-align: center;
+  font-size: 120%;
+  font-variant: normal;
+}
+div.h2Home {
+  color: black;
+  text-align: center;
+  font-size: 120%;
+  font-variant: normal;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+div.h2Contact {
+  color: #A6FF2A;
+  text-align: left;
+  font-size: 150%;
+  font-variant: normal;
+  margin-left: 60px;
+  vertical-align: top;
+}
+.h2GameInfo {
+  color: #A6FF2A;
+  text-align: left;
+  font-size: 180%;
+  font-variant: normal;
+  margin-left: 40px;
+  margin-top: 60px;
+  vertical-align: top;
+}
+.h2RegistrationForm {
+  color: #A6FF2A;
+  text-align: left;
+  font-size: 180%;
+  font-variant: normal;
+  margin-left: 40px;
+  margin-top: 60px;
+  vertical-align: top;
+}
+
+
+/*PARALLAX*/
+div.parallax {
+  background-image: url("../img/Soccer-Slide-Leagues.jpg");
+
+  min-height: 720px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax1 {
+  background-image: url("../img/kids-grassroots-action.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallaxTXT1 {
+  background-color: #033949;
+  color: #A6FF2A;
+  text-align: center;
+  
+}
+div.parallax2 {
+  background-image: url("../img/female_youth_soccer.jpeg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallaxTXT2 {
+  background-color: #033949;
+  color: #A6FF2A;
+  text-align: center;
+}
+div.parallax3 {
+  background-image: url("../img/lanxufati.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallaxTXT3 {
+  background-color: #033949;
+  color: #A6FF2A;
+  text-align: center;
+}
+
+
+div.parallax4 {
+  background-image: url("../img/soccer043.jpeg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax5 {
+  background-image: url("../img/Youth-Soccer-Clinics.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax6 {
+  background-image: url("../img/Youth-soccer-indiana.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax7 {
+  background-image: url("../img/U5.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax8 {
+  background-image: url("../img/Document.jpeg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax9 {
+  background-image: url("../img/los_soccer_plaier.jpeg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*SECTION STYLE*/
+section {
+  display: inline-block;
+}
+section.sectHome {
+  position: absolute;
+  margin-top: 200px;
+  right: 0;
+}
+
+/*TEXT BOX HOME*/
+div.TXTBox {
+  background-color: lightgrey;
+  border-radius: 50px;
+  padding: 30px;
+  margin-right: 50px;
+  opacity: 0.5;
+}
+
+/*<H3> STYLE*/
+h3 {
+  font-family: "MS PGothic", sans-serif;
+  text-decoration: underline #A6FF2A;
+}
+div.h3 {
+  color: #A6FF2A;
+  text-align: center;
+  font-size: 120%;
+  font-variant: normal;
+  font-weight: bold;
+}
+
+div.h3Home {
+  color: black;
+  text-align: center;
+  font-size: 120%;
+  font-variant: normal;
+  opacity: 0.9;
+}
+
+.h3GameInfo {
+  color: #A6FF2A;
+  text-align: left;
+  font-size: 125%;
+  font-variant: normal;
+  margin-left: 70px;
+  margin-top: 60px;
+  vertical-align: top;
+}
+
+
+/*LIST STYLE*/
+
+li{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+.Sportsmanship {
+  list-style-type: disc;
+}
+.FieldsUsed {
+  list-style-type: lower-alpha;
+}
+.TeamBench {
+  list-style-type: lower-alpha;
+}
+.Square {
+  list-style-type: square;
+}
+.AllplayCircle {
+  list-style-type: circle;
+}
+
+/* TABLE */
+.tableGameInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "MS PGothic", sans-serif;
+  margin-bottom: 15px;
+  color: #033949;
+}
+
+.table1 {
+  width: 40%;
+  text-align: left;
+  background-color: #A3FF15;
+  padding: 2%;
+  border-radius: 12px;
+}
+.table2 {
+  margin-left: 50px;
+  width: 40%;
+  height: 270px;
+  text-align: left;
+  background-color: #A3FF15;
+  padding: 2%;
+  border-radius: 12px;
+}
+.table3 {
+  display: flex;
+  margin-right: 738px;
+  margin-top: -325px;
+  width: 45%;
+  height: 260px;
+  text-align: left;
+  background-color: #A3FF15;
+  padding: 2%;
+  border-radius: 12px;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+tbody {
+  font-weight: bold;
+}
+
+td {
+  width: 400px;
+  height: 30px;
+  
+}
+
+.h1feedback {
+  color: #A3FF15;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.tableFeedback td {
+  border: 2px solid #A3FF15;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+  margin-left: 50px;
+  
+}
+
+.thFeedback {
+  text-decoration: underline #A3FF15;
+  text-align: center;
+}
+
+.tdTable3 td {
+  background-color: #033949;
+}
+.Katzenmaier {
+  color: #0288D1;
+}
+.Greenbay {
+  color: #7CB342;
+}
+.Yeager {
+  color: #F9AB2D;
+}
+.Marjorie {
+  color: #FFEA00;
+}
+.NorthEl {
+  color: #9D28B0;
+}
+.SouthEl {
+  color: #E65100;
+}
+
+/* MAPS STYLE (POSITION) */
+
+iframe {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 800px;
+  margin-top: 50px;
+  width: 500px;
+  height: 320px;
+}
+
+
+
+
+/*<P> STYLE*/
+p {
+  font-family: "MS PGothic", sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+div.p {
+  color: #A6FF2A;
+  text-align: center;
+  font-variant: normal;
+}
+div.pHome {
+  color: black;
+  text-align: center;
+  font-size: 120%;
+  font-variant: normal;
+}
+div.pContact {
+  color: #A6FF2A;
+  text-align: center;
+  font-variant: normal
+}
+.pFeedback {
+  font-family: "MS PGothic", sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  color: #A6FF2A;
+}
+.pRules {
+  text-decoration: underline #A6FF2A;
+}
+
+/* LI STYLE */
+li {
+  font-family: "MS PGothic", sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+  color: #A6FF2A;
+  text-align: left;
+  font-variant: normal;
+  margin-top: 25px;
+  
+}
+ol {
+  margin-top: 25px;
+  
+}
+/*LINK STYLE*/
+a.gameschedule:link {
+  color: #033949;
+  text-decoration: underline;
+}
+a.gameschedule:visited {
+  color: #a800e6;
+  text-decoration: none;
+}
+a.gameschedule:hover {
+  color: red;
+  text-decoration: none;
+}
+a.gameschedule:active {
+  color: Red;
+  text-decoration: none;
+}
+
+
+a.mailtonysl:link {
+  color: #6faf0f;
+  text-decoration: underline;
+}
+a.mailtonysl:visited {
+  color: #d666ff;
+  text-decoration: none;
+}
+a.mailtonysl:hover {
+  color: red;
+  text-decoration: none;
+}
+a.mailtonysl:active {
+  color: Red;
+  text-decoration: none;
+}
+
+/* FORM MAIN MARGIN */
+.FormMain {
+  margin-left: 50px;
+}
+
+/* FORM STYLE */
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "MS PGothic", sans-serif;
+  color: #A3FF15;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-bottom: 500px;
+  padding: 20px;
+  width: 94%;
+}
+
+
+.personalinfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 4px solid #A3FF15;
+  padding: 8px;
+  background-color: #033949;
+}
+.personal {
+  display: flex;
+}
+.personal, label {
+  display: flex;
+  flex-grow: 1;
+}
+
+
+.address  {
+  display: flex;
+}
+
+.city {
+  display: flex;
+}
+.lacity{
+  display: flex;
+  flex-grow: 1;
+}
+
+
+.Birth_Gend {
+  display: flex;
+  align-items: center;
+}
+.birth {
+  margin: 0px 0px 0px 10px;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #A3FF15;
+  margin: 10px;
+  padding: 2px;
+}
+.grade {
+  display: flex;
+  align-items: center;
+  border: 2px solid #A3FF15;
+  margin: 10px;
+}
+
+.emailtxt {
+  margin-top: 6px;
+  width: 1%;
+}
+.closestschool {
+  display: flex;
+  flex-grow: 1;
+}
+.secondschool {
+  display: flex;
+  flex-grow: 1;
+}
+.skool {
+  display: flex;
+  width: 100%;
+  border: 4px solid #A3FF15;
+  padding: 8px;
+  background-color: #033949;
+}
+.posnormally {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 4px solid #A3FF15;
+  padding: 8px;
+  background-color: #033949;
+}
+.posnormally1 {
+  display: flex;
+  flex-direction: column;
+}
+.posnormally2 {
+  display: flex;
+  flex-direction: column;
+}
+.inputuniform {
+  display: flex;
+  align-items: center;
+}
+.uniformsize {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border: 4px solid #A3FF15;
+  padding: 8px;
+  background-color: #033949;
+}
+.jerseytxt {
+  display: flex;
+}
+.jerseysize {
+  display: flex;
+  flex-direction: column;
+}
+.jerseysize12 {
+  display: flex;
+}
+.shortstxt {
+  display: flex;
+}
+.shortssize {
+  display: flex;
+  flex-direction: column;
+}
+.shortssize12 {
+  display: flex;
+}
+
+.permission {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 4px solid #A3FF15;
+  padding: 8px;
+  background-color: #033949;
+}
+.permissiontitle {
+  display: flex;
+  text-decoration: underline;
+}
+.permissiontxt {
+  display: flex;
+  margin: 30px 30px 10px 30px;
+}
+.permissiontxt2 {
+  display: flex;
+  margin: 5px 30px 30px 30px;
+}
+
+.signature {
+  display: flex;
+  margin: 5px 30px 10px 30px;
+}
+.parentsign {
+  display: flex;
+  flex-grow: 1;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 0px 0px;
+}
+
+input[type=text], select {
+  display: flex;
+  flex-direction: column;
+  font-family: "MS PGothic", sans-serif;
+  margin: 0px 10px 10px 10px;
+  flex-grow: 1;
+}
+input[type=submit] {
+  display: flex;
+  justify-content: center;
+  width: 74%;
+  background-color: #A6FF2A;
+  font-family: "MS PGothic", sans-serif;
+  color: #033949;
+  border: 4px solid #033949;
+  font-weight: bolder;
+  text-align: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+input[type=submit]:hover {
+  background-color: #a800e6;
+  color: #A6FF2A;
+  border: 4px solid #A6FF2A;
+}
+/* BACK TO TOP */
+
+.buttonTop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+.linkTop {
+  background-color: #033949;
+  padding: 10px 12px 10px 12px;
+  border-radius: 4px;
+  font-family: "MS PGothic", sans-serif;
+  font-weight: bolder;
+  color: #A3FF15;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* FOOTER STYLE */
+
+footer {
+  bottom: 0px;
+
+}
+.footerobjects {
+  margin-bottom: 50px;
+}
+
+.footermargintop {
+  margin-top: 250px;
+}
+.footerContactmargintop {
+  margin-top: 400px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+/* H4 STYLE */
+
+h4 {
+  margin-top: 0;
+  background-color: #A6FF2A;
+  padding: 10px 0px;
+  color: #033949;
+  font-family: "MS PGothic", sans-serif;
+  text-align: center;
+  bottom: 0px;
+}
+
+.h4marginbottom {
+  margin-bottom: 0;
+}
+

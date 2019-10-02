@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Feedback Sent</title>
+      <link rel="stylesheet" type="text/css" href="./css/NYSL_3_style.css">
+  </head>
+  <body class="pFeedback">
+    <header>
+        <div class="header">
+          <h1>Northside Youth Soccer League</h1>
+        </div>
+          <a href="./NYSL_3_Home.html"><img src="./img/nysl_logo.png" alt="NYSL Logo" class="logo"></a>
+        <div class="MenuBar">
+          <a href="./NYSL_3_Home.html"><img src="./img/flat-home-house-icon-by-vexels.png" alt="NYSL Home" class="HomeButton"></a>
+          <a href="./NYSL_3_About.html" class="button">ABOUT</a>
+          <a href="./NYSL_3_Contact.html" class="button">CONTACT</a>
+          <a href="./NYSL_3_GameInfo.html" class="button">GAME INFO</a>
+          <a href="./NYSL_3_Rulesytal.html" class="button">RULES</a>
+          <a href="./NYSL_3_Form.html" class="button">FORM</a>
+        </div>
+    </header>
+    <hr class="hr2">
+    <div class="FlexFeedback">
+    <main>
+      <p align=center>&nbsp;</p>
+      <h1 align=center><font size="+1" class="h1feedback">Welcome to NYSL! Enjoy!</font></h1>
+
+    <table class="tableFeedback">
+      <tr class="thFeedback">
+        <th>Form Field</th>
+        <th>Field Value</th>
+      </tr>
+    </main>
+    <script language="javascript">
+    var args = location.search.substr(1).split('&');
+    for (var i = 0; i < args.length; ++i) {
+      var parts = args[i].split('=');
+      if (parts != null) {
+        var field = parts[0];
+        var value = parts[1];
+        if (value == null) {
+          value = "null"
+        }
+        else {
+          value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+        }
+      
+        document.writeln('<tr><td align="center">' + field + '</td>');
+        document.writeln('<td align="center">' + value + '</td></tr>');
+      }
+    }
+    </script>
+
+    <noscript>
+      <tr><td>
+        <p>You need to turn on Javascript in your browser.</p>
+
+        <p>In Microsoft Internet Explorer 4 or greater:</p>
+      <ul>
+          <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+          <li>Click on the "Security" tab.</li>
+          <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+              and then click on "Settings...".)</li>
+          <li>Under "Active scripting" make sure "Enable" is selected.</li>
+      </ul>
+
+        <p>In Netscape version 4 or greater:</p>
+      <ul>
+          <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+          <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+          <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+          <li>Click the <b>OK</b> button.</li>
+      </ul>
+
+        </td></tr>
+      </noscript>
+
+    </table>
+    </div>
+    <footer class="footerContactmargintop">
+        <h4 class="h4marginbottom">Copyright © Oriol Peña, 2019</h4>
+    </footer>
+  </body>
+</html>
+
